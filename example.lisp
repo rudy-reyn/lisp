@@ -1,5 +1,5 @@
 ;; 03/02/2022
-;; program.lisp
+;; example.lisp
 
 (let even? (=> n (== (% n 2) 0)))
 (let le0? (=> n (<= n 0)))
