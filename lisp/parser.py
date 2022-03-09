@@ -1,6 +1,5 @@
 # 03/07/22
 # parser.py
-# rudy@lisp - V3
 from typing import NamedTuple
 from collections import deque
 import re
