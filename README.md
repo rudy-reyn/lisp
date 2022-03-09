@@ -16,8 +16,7 @@ Only uses a handful of restricted keywords:
 ;; Functions are first class, and anonymous and named functions function identically.
 (let fact (=> n a               ; function signature
     (if (<= n 0) a              ; first paraentheses indicate start of block
-        (fact (- n 1) (* n a))
-        )))
+        (fact (- n 1) (* n a)))))
 
 ;; Higher order and recursive functions are also easy to implement.
 
